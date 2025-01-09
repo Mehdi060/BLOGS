@@ -1,4 +1,4 @@
-
+### BLOG 1
 Introduction to Data Mining and Its Fundamentals
 
 ### What is Data Mining?
