@@ -1,0 +1,39 @@
+## Blog 3: Clustering Techniques (K-Means, DBSCAN, Hierarchical Clustering)
+
+### Introduction
+Clustering is an unsupervised learning technique that groups similar data points together. It is widely used in customer segmentation, anomaly detection, and pattern recognition.
+
+### Types of Clustering Algorithms
+#### **1. K-Means Clustering**
+- Partitions data into **K clusters** based on similarity.
+- Uses **centroids** to represent each cluster.
+- Requires specifying the number of clusters (K) beforehand.
+
+#### **2. DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**
+- Groups points based on **density** rather than specifying K.
+- Can identify **outliers** (noise) that don’t fit any cluster.
+- Works well for irregularly shaped clusters.
+
+#### **3. Hierarchical Clustering**
+- Creates a **tree-like structure (dendrogram)** of nested clusters.
+- Can be **agglomerative (bottom-up)** or **divisive (top-down)**.
+- No need to specify K, but computationally expensive for large datasets.
+
+### Real-World Applications
+- **Customer Segmentation**: Grouping customers based on purchase behavior.
+- **Image Segmentation**: Identifying objects in images.
+- **Fraud Detection**: Detecting unusual transactions in banking.
+- **Social Network Analysis**: Understanding relationships between users.
+
+### Advantages
+✅ K-Means is fast and scalable for large datasets.  
+✅ DBSCAN is great for detecting outliers.  
+✅ Hierarchical clustering provides a detailed view of relationships.  
+
+### Limitations
+❌ K-Means requires specifying K in advance.  
+❌ DBSCAN struggles with varying densities in clusters.  
+❌ Hierarchical clustering is not scalable for very large datasets.  
+
+### Conclusion
+Clustering techniques allow businesses and researchers to extract meaningful insights from raw data by identifying natural groupings within datasets.
