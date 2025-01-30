@@ -1,0 +1,39 @@
+## Blog 4: Classification Algorithms (Decision Trees, Naïve Bayes, SVM)
+
+### Introduction
+Classification is a supervised learning technique used to categorize data into predefined labels. It is widely used in spam detection, sentiment analysis, and medical diagnosis.
+
+### Key Classification Algorithms
+#### **1. Decision Trees**
+- Uses a **tree-like model** to split data based on features.
+- Easy to understand and interpret.
+- Prone to overfitting if not pruned properly.
+
+#### **2. Naïve Bayes**
+- Based on **Bayes’ theorem**, assuming feature independence.
+- Works well with **small datasets** and text classification.
+- Used in spam filtering and sentiment analysis.
+
+#### **3. Support Vector Machines (SVM)**
+- Finds an **optimal hyperplane** to separate classes.
+- Effective for **high-dimensional** data.
+- Can be computationally expensive.
+
+### Real-World Applications
+- **Email Filtering**: Classifying emails as spam or non-spam.
+- **Healthcare**: Predicting diseases based on patient symptoms.
+- **Finance**: Credit risk assessment for loan approvals.
+- **Social Media**: Detecting hate speech and fake news.
+
+### Advantages
+✅ Decision Trees are easy to visualize and interpret.  
+✅ Naïve Bayes is efficient for text classification tasks.  
+✅ SVM works well for complex datasets with high dimensionality.  
+
+### Limitations
+❌ Decision Trees can overfit if not controlled.  
+❌ Naïve Bayes assumes feature independence, which may not hold true.  
+❌ SVM can be computationally expensive for large datasets.  
+
+### Conclusion
+Classification algorithms are essential for making predictions and have broad applications in various industries, from finance to healthcare.
