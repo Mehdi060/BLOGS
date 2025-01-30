@@ -1,0 +1,29 @@
+## Blog 9: Graph-Based Data Mining
+
+### Introduction
+Graph-based data mining focuses on analyzing relationships between entities, widely used in social networks, fraud detection, and bioinformatics.
+
+### Techniques in Graph-Based Data Mining
+#### **1. Graph Traversal Algorithms**
+- BFS, DFS for exploring connections in networks.
+
+#### **2. Community Detection Algorithms**
+- Identifies clusters in social networks.
+
+#### **3. PageRank Algorithm**
+- Used in search engines to rank web pages.
+
+### Real-World Applications
+- **Social Network Analysis**: Identifying influencers on platforms like Twitter.
+- **Fraud Detection**: Detecting fraudulent transactions in banking.
+- **Drug Discovery**: Analyzing molecular interactions.
+
+### Advantages
+✅ Captures complex relationships between data points.  
+✅ Effective for large-scale network analysis.  
+
+### Limitations
+❌ Computationally expensive for large graphs.  
+
+### Conclusion
+Graph-based data mining is essential for understanding interconnected data structures and relationships.
