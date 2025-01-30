@@ -1,0 +1,31 @@
+## Blog 18: Explainable AI in Data Mining
+
+### Introduction
+Explainable AI (XAI) enhances trust and interpretability in AI-driven data mining models. As AI models become more complex, understanding their decision-making process is crucial for fairness, accountability, and compliance.
+
+### Key Techniques in XAI
+#### **1. SHAP (Shapley Additive Explanations)**
+SHAP assigns importance scores to features, explaining how each variable influences the model's predictions.
+
+#### **2. LIME (Local Interpretable Model-Agnostic Explanations)**
+LIME generates simple interpretable models to approximate complex AI models, making it easier to understand specific decisions.
+
+#### **3. Rule-Based Approaches**
+Decision trees and association rule mining provide interpretable models that are easier to analyze.
+
+### Real-World Applications
+- **Healthcare**: Explaining AI-driven diagnoses and treatment recommendations.
+- **Finance**: Ensuring transparency in credit scoring and fraud detection.
+- **Legal**: Justifying AI-based risk assessments.
+
+### Advantages
+✅ Improves trust and accountability in AI models.  
+✅ Enhances compliance with legal and ethical guidelines.  
+✅ Helps in debugging and optimizing AI systems.
+
+### Limitations
+❌ Can increase computational complexity.  
+❌ Some explanations may still be difficult for non-experts.  
+
+### Conclusion
+Explainable AI bridges the gap between complex AI models and human understanding, making data mining models more reliable and trustworthy.
