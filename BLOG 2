@@ -1,0 +1,38 @@
+## Blog 2: Association Rule Mining (Apriori, FP-Growth)
+
+### Introduction
+Association Rule Mining is a fundamental data mining technique that uncovers relationships between variables in large datasets. It is widely used in retail, healthcare, and finance to identify patterns and correlations among data points.
+
+### Understanding Association Rule Mining
+Association rule mining works by identifying frequent patterns, correlations, and associations among data items. It consists of two major steps:
+1. **Frequent Itemset Generation** – Identifying groups of items that frequently appear together.
+2. **Association Rule Generation** – Deriving rules that predict the occurrence of one item based on another.
+
+### Popular Algorithms
+#### **1. Apriori Algorithm**
+- Uses an iterative approach (breadth-first search) to generate frequent itemsets.
+- Based on the principle that subsets of frequent itemsets must also be frequent.
+- Can be computationally expensive for large datasets.
+
+#### **2. FP-Growth Algorithm**
+- An improvement over Apriori, it eliminates candidate generation by building a compact **Frequent Pattern (FP) Tree**.
+- More efficient than Apriori for large datasets with many frequent items.
+
+### Real-World Applications
+- **Retail & Market Basket Analysis**: Identifying items frequently purchased together (e.g., "People who buy bread also buy butter").
+- **Healthcare**: Finding disease correlations from patient medical records.
+- **Web Usage Mining**: Understanding user browsing behavior to improve recommendations.
+- **Fraud Detection**: Identifying suspicious transaction patterns in banking.
+
+### Advantages
+✅ Helps uncover hidden patterns in data.  
+✅ Enhances recommendation systems and targeted marketing.  
+✅ FP-Growth is more efficient for large datasets.  
+
+### Limitations
+❌ Apriori can be slow for large datasets due to candidate generation.  
+❌ Rule generation can sometimes produce too many insignificant rules.  
+
+### Conclusion
+Association Rule Mining plays a crucial role in analyzing relationships within datasets, helping businesses and researchers extract valuable insights.
+
