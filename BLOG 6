@@ -1,0 +1,31 @@
+## Blog 6: Anomaly Detection in Data Mining
+
+### Introduction
+Anomaly detection identifies unusual patterns in data that do not conform to expected behavior. It is widely used in fraud detection, cybersecurity, and industrial monitoring.
+
+### Techniques for Anomaly Detection
+#### **1. Statistical Methods**
+- Identify anomalies based on deviations from mean, median, or standard deviation.
+
+#### **2. Machine Learning Approaches**
+- **Supervised Learning**: Uses labeled datasets (e.g., fraud vs. non-fraud).
+- **Unsupervised Learning**: Identifies anomalies without predefined labels (e.g., clustering techniques like DBSCAN).
+
+#### **3. Deep Learning Techniques**
+- Autoencoders and LSTMs are used for detecting complex patterns in time-series data.
+
+### Real-World Applications
+- **Fraud Detection**: Identifying fraudulent credit card transactions.
+- **Cybersecurity**: Detecting network intrusions and malware.
+- **Healthcare**: Identifying rare diseases in medical diagnostics.
+
+### Advantages
+✅ Effective for identifying rare and unusual patterns.  
+✅ Works with both structured and unstructured data.  
+
+### Limitations
+❌ False positives can be high.  
+❌ Requires continuous monitoring and retraining.  
+
+### Conclusion
+Anomaly detection is crucial for security and monitoring applications, helping organizations identify and mitigate risks.
