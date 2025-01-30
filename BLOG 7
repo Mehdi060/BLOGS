@@ -1,0 +1,31 @@
+## Blog 7: Feature Selection and Dimensionality Reduction (PCA, LDA, t-SNE)
+
+### Introduction
+Feature selection and dimensionality reduction are techniques used to improve model performance by reducing irrelevant or redundant features in datasets.
+
+### Techniques for Feature Selection & Dimensionality Reduction
+#### **1. Principal Component Analysis (PCA)**
+- Converts high-dimensional data into lower dimensions while preserving variance.
+- Commonly used in image processing and genomics.
+
+#### **2. Linear Discriminant Analysis (LDA)**
+- Focuses on maximizing class separability in classification tasks.
+
+#### **3. t-Distributed Stochastic Neighbor Embedding (t-SNE)**
+- Used for visualizing high-dimensional data in two or three dimensions.
+
+### Real-World Applications
+- **Image Compression**: PCA is used to reduce image size while preserving essential features.
+- **Speech Recognition**: LDA enhances feature selection for voice-based systems.
+- **Data Visualization**: t-SNE helps in clustering large datasets.
+
+### Advantages
+✅ Improves computational efficiency.  
+✅ Reduces model overfitting by removing irrelevant features.  
+
+### Limitations
+❌ Some information loss can occur during transformation.  
+❌ t-SNE is computationally expensive.  
+
+### Conclusion
+Feature selection and dimensionality reduction techniques are essential for optimizing machine learning models and improving data visualization.
