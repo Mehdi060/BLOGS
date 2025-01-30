@@ -1,0 +1,26 @@
+## Blog 8: Sequential Pattern Mining
+
+### Introduction
+Sequential pattern mining identifies patterns and trends in sequential data, commonly used in market basket analysis, bioinformatics, and user behavior analysis.
+
+### Key Techniques
+#### **1. Apriori-based Sequential Pattern Mining**
+- Extends Apriori to handle sequential transactions.
+
+#### **2. PrefixSpan (Prefix-projected Sequential Pattern Mining)**
+- Efficiently finds sequential patterns without candidate generation.
+
+### Real-World Applications
+- **E-commerce**: Predicting next product purchases.
+- **Healthcare**: Identifying common treatment sequences.
+- **Web Usage Mining**: Analyzing browsing behavior.
+
+### Advantages
+✅ Helps uncover trends in time-series data.  
+✅ Improves recommendation systems.  
+
+### Limitations
+❌ Computationally expensive for long sequences.  
+
+### Conclusion
+Sequential pattern mining is a powerful tool for discovering hidden trends in temporal data.
